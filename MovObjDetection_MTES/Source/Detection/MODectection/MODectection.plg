@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MODectection - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Mahbub\LOCALS~1\Temp\RSP765B.tmp" with contents
+[
+/nologo /G5 /Zp16 /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../../../../Lib/KSClass/Include" /I "../../../../../Lib/Intel/Ipl/Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MODECTECTION_EXPORTS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\Canny.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\CannyBase.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\CEdgeCD.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\Curvature.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\EdegClusterList.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\EdgeCluster.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\EdgelChain.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\EdgeListType.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\EdgeSegmentMatch.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\EdgeSegmentType.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\HoughTransform.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\InitializeCluster.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\MODectection.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\PointType.cpp"
+"C:\Program Files\MG\MTES\FMS\MovObjDetection\Source\Detection\MODectection\Vertex.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Mahbub\LOCALS~1\Temp\RSP765B.tmp" 
+Creating temporary file "C:\DOCUME~1\Mahbub\LOCALS~1\Temp\RSP765C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"../../../DLL/MODectection.pdb" /debug /machine:I386 /out:"../../../DLL/MODectection.dll" /implib:"../../../DLL/MODectection.lib" /pdbtype:sept /libpath:"../../../../../Lib/KSClass/Lib" /libpath:"../../../../../Lib/Intel/Ipl/Lib" 
+".\Debug\Canny.obj"
+".\Debug\CannyBase.obj"
+".\Debug\CEdgeCD.obj"
+".\Debug\Curvature.obj"
+".\Debug\EdegClusterList.obj"
+".\Debug\EdgeCluster.obj"
+".\Debug\EdgelChain.obj"
+".\Debug\EdgeListType.obj"
+".\Debug\EdgeSegmentMatch.obj"
+".\Debug\EdgeSegmentType.obj"
+".\Debug\HoughTransform.obj"
+".\Debug\InitializeCluster.obj"
+".\Debug\MODectection.obj"
+".\Debug\PointType.obj"
+".\Debug\Vertex.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Mahbub\LOCALS~1\Temp\RSP765C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Canny.cpp
+CannyBase.cpp
+linking to KSClass_D.lib
+CEdgeCD.cpp
+linking to KSClass_D.lib
+linking to KSClass_D.lib
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\cedgecd.cpp(270) : warning C4101: 'flag2' : unreferenced local variable
+Curvature.cpp
+EdegClusterList.cpp
+linking to KSClass_D.lib
+linking to KSClass_D.lib
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(435) : warning C4101: 'cminx' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(435) : warning C4101: 'cminy' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(435) : warning C4101: 'cmaxx' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(435) : warning C4101: 'cmaxy' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(437) : warning C4101: 'x' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(437) : warning C4101: 'y' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(434) : warning C4101: 'minx' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(434) : warning C4101: 'miny' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(434) : warning C4101: 'maxx' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edegclusterlist.cpp(434) : warning C4101: 'maxy' : unreferenced local variable
+EdgeCluster.cpp
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgecluster.cpp(32) : warning C4305: '=' : truncation from 'const double' to 'float'
+EdgelChain.cpp
+EdgeListType.cpp
+EdgeSegmentMatch.cpp
+linking to KSClass_D.lib
+linking to KSClass_D.lib
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(856) : warning C4101: 'mX' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(856) : warning C4101: 'mY' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(854) : warning C4101: 'weightFactor' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(854) : warning C4101: 'meanX' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(850) : warning C4101: 'k' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(854) : warning C4101: 'meanY' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(854) : warning C4101: 'curEdgeWeight' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\edgesegmentmatch.cpp(959) : warning C4101: 'segIndex' : unreferenced local variable
+EdgeSegmentType.cpp
+HoughTransform.cpp
+linking to KSClass_D.lib
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\houghtransform.cpp(39) : warning C4101: 'i' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\houghtransform.cpp(762) : warning C4101: 'olddx' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\houghtransform.cpp(762) : warning C4101: 'olddy' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\houghtransform.cpp(761) : warning C4101: 'oldx' : unreferenced local variable
+c:\program files\mg\mtes\fms\movobjdetection\source\detection\modectection\houghtransform.cpp(761) : warning C4101: 'oldy' : unreferenced local variable
+InitializeCluster.cpp
+MODectection.cpp
+linking to KSClass_D.lib
+PointType.cpp
+linking to KSClass_D.lib
+Vertex.cpp
+Generating Code...
+Linking...
+   Creating library ../../../DLL/MODectection.lib and object ../../../DLL/MODectection.exp
+HoughTransform.obj : error LNK2001: unresolved external symbol "void __cdecl kalman_update(float (* const)[4],float,float,float,float,float,float,float,float,float &,float &,float &,float &)" (?kalman_update@@YAXQAY03MMMMMMMMMAAM111@Z)
+../../../DLL/MODectection.dll : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+Creating temporary file "C:\DOCUME~1\Mahbub\LOCALS~1\Temp\RSP7660.tmp" with contents
+[
+/nologo /o"../../../DLL/MODectection.bsc" 
+".\Debug\Canny.sbr"
+".\Debug\CannyBase.sbr"
+".\Debug\CEdgeCD.sbr"
+".\Debug\Curvature.sbr"
+".\Debug\EdegClusterList.sbr"
+".\Debug\EdgeCluster.sbr"
+".\Debug\EdgelChain.sbr"
+".\Debug\EdgeListType.sbr"
+".\Debug\EdgeSegmentMatch.sbr"
+".\Debug\EdgeSegmentType.sbr"
+".\Debug\HoughTransform.sbr"
+".\Debug\InitializeCluster.sbr"
+".\Debug\MODectection.sbr"
+".\Debug\PointType.sbr"
+".\Debug\Vertex.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Mahbub\LOCALS~1\Temp\RSP7660.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MODectection.dll - 2 error(s), 25 warning(s)
+</pre>
+</body>
+</html>
